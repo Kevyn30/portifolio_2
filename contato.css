@@ -31,7 +31,7 @@ form {
 
 fieldset {
   border: none;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   border-bottom: 3px solid #48ff00;
 }
 
@@ -46,8 +46,7 @@ label {
 }
 
 input,
-textarea,
-select {
+textarea{
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
@@ -61,23 +60,7 @@ input, textarea {
   text-shadow: #15ff00;
   text-decoration: underline;
 }
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
 
-input[type="file"] {
-  padding: 1px 2px;
-}
-
-.inline{
-  display: inline; 
-}
-
-a{
-  color:#000000;
-}
 .in{
   font-weight: 800;
   display: block;
@@ -91,4 +74,27 @@ a{
   border:none;
   border-radius:10px;
   min-width: 300px;
+}
+
+@media screen and (max-width: 939px){
+  form {
+    width: none;
+    margin: 0 5%;
+    padding-bottom: 2em;
+  }
+  .titulo{
+    margin: 0;
+  }
+  header nav ul li{
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    text-wrap: wrap;
+    padding: 0;
+  }
+  label,input,textarea {
+    text-align: center;
+    align-items: center;
+  }
 }

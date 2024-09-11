@@ -24,7 +24,7 @@ h2{
 }
 
 header{
-  padding: 40px 4%;
+  padding:6vw;
 }
 .interface{
   display:flex;
@@ -58,10 +58,10 @@ main div a{
   margin-bottom: 1%;
   color: white;
 }
-.lol{
+.info{
   font-size: 20px;
 }
-.pi a{
+.link_github a{
   color: #48ff00;
   text-decoration-line: underline;
   font-size: unset;
@@ -75,9 +75,7 @@ header nav a:hover{
   display: inline-block;
   padding: 0 40px;
 }
-.poke{
-  font-size: 6vh;
-  font-weight: bolder;
+.titulo{
   color:#48ff00
 }
 header nav ul{
@@ -92,7 +90,6 @@ header nav ul li{
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 700;
-  text-decoration-color: black;
   background-color: #48ff00;
   border: 0;
   border-radius:30px;
@@ -148,7 +145,7 @@ img{
   .flex{
     flex-direction: column-reverse;
   }
-  .poke p{
+  .titulo p{
     font-size: 20px;
   }
   .menu, .contato{
@@ -157,20 +154,20 @@ img{
   .texto p{
     font-size: 15px;
   }
-  div.interface h1{
-    padding: 0 8vh;
+
+  .titulo{
+    display:flex;
+    font-size: 4vw;
   }
   .topo h1{
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 28px; 
   }
-  header nav ul{
-    display: block;
-    text-wrap: wrap;
-    padding: 0 23px;
-  }
+
   header nav ul li{
-    padding: 0 2vh;
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    padding: 0;
   }
   section.topo{
     padding: 0 6%;
@@ -184,17 +181,17 @@ img{
     gap: 40px;
   }
   div.contato button{
-    display: none;
-  }
-
-  .interface{
     display: flex;
-    flex-wrap: wrap;
   }
-  .pi a{
-    display:inline-flex;
-    flex-wrap: wrap;
+  .contato button{
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #48ff00;
+    border: 0;
+    border-radius:20px;
   }
+  
   header nav a:hover{
     font-weight: 500;
     transition: 2ms;
