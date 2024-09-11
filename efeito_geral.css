@@ -81,7 +81,9 @@ header nav a:hover{
 header nav ul{
   list-style-type: none;
 }
-
+.cor{
+  color: #48ff00;
+}
 header nav ul li{
   display: inline-block;
   padding: 0 40px;
