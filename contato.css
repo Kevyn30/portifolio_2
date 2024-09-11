@@ -1,100 +1,61 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-}
 body{
   color: #48ff00;
 }
-header div a{
-color: black;
-text-decoration: none;
-}
 
 header div nav a{
-color: #ffffff;
-text-decoration: none;
-display: inline-block;
-transition: 0.5s;
-}
-form{
-  padding: 16%;
-  align-items: center;
-}
-
-h1, p {
-  margin: 1em auto;
-  text-align: center;
-}
-
-fieldset {
-  border: none;
-  padding: 2rem 1rem;
-  border-bottom: 3px solid #48ff00;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
-}
-
-label {
-  display: block;
-  margin: 0.5rem 0;
-  font-weight: 700;
-}
-
-input,
-textarea{
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
-}
-input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
   color: #ffffff;
-}
-.brilho{
-  text-shadow: #15ff00;
-  text-decoration: underline;
-}
-
-.in{
-  font-weight: 800;
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  color: #000000;
-  font-weight: 500;
-  background-color: #15ff00;
-  border:none;
-  border-radius:10px;
-  min-width: 300px;
-}
-
-@media screen and (max-width: 939px){
-  form {
-    width: none;
-    margin: 0 5%;
-    padding-bottom: 2em;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
   }
-  .titulo{
-    margin: 0;
+  
+  fieldset {
+    border: none;
+    padding: 2rem 1rem;
+    border-bottom: 3px solid #48ff00;
   }
-  header nav ul li{
-    margin: 0;
-    display: inline-flex;
-    align-items: center;
-    flex-direction: column;
-    text-wrap: wrap;
-    padding: 0;
+  
+  fieldset:last-of-type {
+    border-bottom: none;
   }
-  label,input,textarea {
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-weight: 700;
+  }
+  
+  input,
+  textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  .posição{
     text-align: center;
-    align-items: center;
   }
-}
+  .brilho{
+    text-shadow: #15ff00;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .in{
+    font-weight: 800;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: 500;
+    background-color: #15ff00;
+    border:none;
+    border-radius:10px;
+    min-width: 300px;
+  }
