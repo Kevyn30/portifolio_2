@@ -52,11 +52,18 @@ main div a{
 .lista h2{
   margin-bottom: 1%;
 }
-.lista ul{
+div.texto .paragrafo{
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+section.texto .paragrafo{
+  margin: 40px;
+}
+.lista ul {
   font-size: 3vh;
   padding-left: 3%;
-  margin-bottom: 1%;
   color: white;
+  margin: 2% 3%;
 }
 .info{
   font-size: 20px;
@@ -112,14 +119,16 @@ section.topo .flex{
   justify-content: center;
   gap: 90px;
 }
-.topo h1{
+.topo h1 {
   color: white;
   font-size: 38px;
+  padding: 0 40px;
   line-height: 40px;
 }
-.texto p{
+.texto p {
   color: #fff;
-  margin: 40px 0;
+  margin: 20px;
+  font-size: 18px;
 }
 img{
   position: relative;
@@ -174,9 +183,11 @@ img{
   section.topo{
     padding: 0 6%;
   }
-  img{
-    width: 90%;
-  }
+  img {
+    width: auto;
+    margin: 0 5%;
+    margin-bottom: 10%;
+}
   section.topo .flex{
     align-items: center;
     justify-content: center;
