@@ -9,53 +9,53 @@ header div nav a{
   transition: 0.5s;
   }
   
-  fieldset {
-    border: none;
-    padding: 2rem 1rem;
-    border-bottom: 3px solid #48ff00;
-  }
+fieldset {
+  border: none;
+  padding: 2rem 1rem;
+  border-bottom: 3px solid #48ff00;
+}
   
-  fieldset:last-of-type {
-    border-bottom: none;
-  }
+fieldset:last-of-type {
+  border-bottom: none;
+}
   
-  label {
-    display: block;
-    margin: 0.5rem 0;
-    font-weight: 700;
-  }
+label {
+display: block;
+margin: 0.5rem 0;
+font-weight: 700;
+}
   
-  input,
-  textarea{
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-  }
-  input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
-  }
-  .posição{
-    text-align: center;
-  }
-  .brilho{
-    text-shadow: #15ff00;
-    text-align: center;
-    text-decoration: underline;
-  }
-  
-  .in{
-    font-weight: 800;
-    display: block;
-    width: 60%;
-    margin: 1em auto;
-    height: 2em;
-    font-size: 1.1rem;
-    color: #000000;
-    font-weight: 500;
-    background-color: #15ff00;
-    border:none;
-    border-radius:10px;
-    min-width: 300px;
-  }
+input,
+textarea{
+margin: 10px 0 0 0;
+width: 100%;
+min-height: 2em;
+}
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.posição{
+  text-align: center;
+}
+.brilho{
+  text-shadow: #15ff00;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.in{
+  font-weight: 800;
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 500;
+  background-color: #15ff00;
+  border:none;
+  border-radius:10px;
+  min-width: 300px;
+}
